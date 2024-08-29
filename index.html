@@ -1,0 +1,85 @@
+<!--Henrique Pereira de Oliveira - 2020009348 - Universidade Federal de Itajubá-->
+<!--XDES03-Programação Web-->
+<!--Exercício realizado em sala de aula no dia 29/08/2024-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Apresentação</title>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="https://unifei.edu.br/" target="_blank">UNIFEI</a></li>
+            <li><a href="https://proex.unifei.edu.br/" target="_blank">PROEX</a></li>
+            <li><a href="https://unifei.edu.br/evento/integra-unifei-2023-campus-itajuba/" target="_blank">INTEGRA UNIFEI</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <h1>Formulário de Apresentação de Projetos de Extensão</h1>
+
+        <p>Nesse formulário sua equipe deverá preencher os dados do seu projeto de extensão para que a PROEX possa distribuir os stands da forma mais adequada.</p>
+
+        <fieldset>
+            <legend>Identificação do Projeto</legend>
+            <form action="">
+
+                <label for="nomeProjeto">Nome do Projeto</label>
+                <input type="text" name="nomeProjeto" id="nomeProjeto">
+
+                <label for="qtdIntegrantes">Quantidade de Integrantes</label>
+                <input type="text" name="qtdIntegrantes" id="qtdIntegrantes">
+
+                <label for="instLocalizacao">Instituto de Localização</label>
+                <input type="text" name="instLocalizacao" id="instLocalizacao">
+            </form>
+        </fieldset>
+
+        <fieldset>
+            <legend>Área de Atuação</legend>
+            <p>Selecione apenas uma opção</p>
+            <form action="">
+                <input type="radio" name="area_at" id="webMobile" value="webMobile" checked>
+                <label for="webMobile">Aplicação Web/Mobile</label>
+
+                <input type="radio" name="area_at" id="devJogos" value="devJogos">
+                <label for="devJogos">Desenvolvimento de Jogos</label>
+
+                <input type="radio" name="area_at" id="drones" value="drones">
+                <label for="drones">Drones</label>
+
+                <input type="radio" name="area_at" id="compRobos" value="compRobos">
+                <label for="compRobos">Competição de Robôs</label>
+
+                <input type="radio" name="area_at" id="contab" value="contab">
+                <label for="contab">Contabilidade</label>
+
+                <input type="radio" name="area_at" id="metereol" value="metereol">
+                <label for="metereol">Metereologia</label>
+            </form>
+        </fieldset>
+
+        <fieldset>
+            <legend>Fomento</legend>
+            <form action="">
+                <label for="tipo">Tipo</label>
+                <select name="tipo" id="tipo">
+                    <option value="ej">Empresa Júnior</option>
+                    <option value="projComp">Projeto de Competição</option>
+                    <option value="ic">Iniciação Científica</option>
+                    <option value="ong">ONG</option>
+                    <option value="outro">Outro</option>
+                </select>
+            </form>
+        </fieldset>
+
+        <button>Cadastrar</button>
+    </main>
+
+    <footer>
+        <p>Página criada por <a href="https://github.com/Henriqolive/" target="_blank">Henrique Oliveira</a></p>
+    </footer>
+</body>
+</html>
